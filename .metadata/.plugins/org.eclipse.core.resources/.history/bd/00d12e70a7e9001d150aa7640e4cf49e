@@ -1,0 +1,19 @@
+package sdetPrograms;
+
+public class LongestConsecutive {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ int i=101,count=0;
+ 
+
+	while(i!=0) {
+		 count++;
+		i=(i & (i<<1));
+	}
+
+
+System.out.println(count);
+	}
+
+}
